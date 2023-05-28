@@ -3,13 +3,9 @@ Realizar un algoritmo que rellene un vector con los 100 primeros números entero
 muestre por pantalla en orden descendente.
  */
 package ejercicioaprendizaje15;
-
-import java.util.Scanner;
-
 public class EjercicioAprendizaje15 {
     public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
-        
+               
         int vector[] = new int[101];
         
         rellenar(vector);
